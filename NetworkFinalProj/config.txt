@@ -1,0 +1,17 @@
+[Service Name]
+client = yes
+ListenPort = 4788
+DestionationIP = 192.168.137.1
+DestinationPort = 443
+Proto = UDP
+Key = /home/user/xyz.pem
+
+
+
+[Service Name]
+client = yes
+ListenPort = 4799
+DestionationIP = 192.168.137.1
+DestinationPort = 443
+Proto = TCP
+Key = /home/user/xyz.pem
